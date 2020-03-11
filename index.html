@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+    <script src="https://kit.fontawesome.com/ce7c142038.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Test</title>
+</head>
+<header class="header"> 
+    <div class="main-wrapper">
+        <img src="src/logotip.png">
+        <nav class="main-menu">
+            <ul class="list">
+                <li class="list__item">
+                    <a class="list__link" href="#">Главная страница</a></li>
+                <li class="list__item">
+                    <a class="list__link" href="#link_stack">Стек</a></li>
+                <li class="list__item">
+                    <a class="list__link" href="#link_study">Научитесь</a></li>
+                <li class="list__item">
+                    <a class="list__link" href="#link_team">Команда</a></li>
+                <li class="list__item">
+                    <a class="list__link" href="#">Наш блог</a></li>
+                <li class="list__item ">
+                    <a class="list__link" href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <main>
+        <section class="model">
+                <div class="model-button"><button class="model-button__closeBlock">X</button></div>
+                <div class="model-title">Регистрация</div>
+                
+                <form>
+                    <div class="form-nameInput">Имя:</div> 
+                    <div class="form-nameInput"><input class="form-nameInput__input" type="text" required placeholder="Введите имя" pattern="^[\sA-Za-zА-Яа-яЁё]{2,}$"></div>
+                    <div class="form-nameInput">Фамилия:</div> 
+                    <div class="form-nameInput"><input class="form-nameInput__input" type="text" required placeholder="Ввидите Фамилию" pattern="^[\sA-Za-zА-Яа-яЁё]{2,}$"></div>
+                    <div class="form-nameInput"> Почта:</div> 
+                    <div class="form-nameInput"><input class="form-nameInput__input" type="email" required placeholder="qwert12345@mail.ru" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"></div>
+                    <div class="form-nameInput">Телефон:</div>
+                    <div class="form-nameInput"><input class="form-nameInput__input" type="tel" required placeholder="8-987-654-32-10" pattern="^[0-9(\-+)\s]+$"></div>
+                    <div class="form-nameInput"><input required type="checkbox">Согласны на обработку данных</div>
+                    <div class="form-nameInput"><input class="form-button" type="submit" value="Зарегистрироваться"></div>
+                </form>      
+        </section>
+        <section class="main-section">
+            <div class="main-wrapper">
+                <div class="board-left z-index">
+                    <h1 class="title">
+                        Пройдите полный курс frontend-разработчика 
+                    </h1>
+                    <p class="board-left__text">
+                        Научитесь верстать сайты и создавать    интерфейсы, соберёте два проекта в     портфолио и освоите современную профессию.
+                    </p>
+                    <div class="check-in">
+                        <a href="#" class="check-in__link">
+                        <i class="fas fa-check-double"></i>
+                        <div class="check-in__text">Записаться</div></a> 
+                    </div> 
+                </div>
+                <img src="src/web-build.png"  class="board-left-foto z-index col-sm-4 col-7">
+            </div>
+        </section>
+        <section class="stack" id="link_stack">
+            <h2 class="title-section"><span class="title-section__span">СТЕК</span></h2>    
+            <div class="stack-blocks">
+                <div class="stack-blocks-first">
+                    <div class="stack-blocks-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stack-blocks-title">
+                        HTML
+                    </div>
+                    <div class="stack-blocks-text"> 
+                        Стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML.
+                    </div>
+                    <a href="https://ru.wikipedia.org/wiki/HTML" class="stack-blocks-link">Подробнее</a>
+                </div>                
+                <div class="stack-blocks-second col-sm-3 col-8">
+                     <div class="stack-blocks-icon">
+                         <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="stack-blocks-title">CSS</div>
+                     <div class="stack-blocks-text">Формальный язык описания внешнего вида документа, написанного с использованием языка разметки.</div>
+                    <a href="https://ru.wikipedia.org/wiki/CSS" class="stack-blocks-link">Подробнее</a>
+                </div>
+            <div class="stack-blocks-third col-sm-3 col-8">
+                <div class="stack-blocks-icon"><i class="fab fa-node-js"></i></div>
+                <div class="stack-blocks-title">Java Script</div>
+                <div class="stack-blocks-text">Это язык программирования, с помощью которого страницы сайтов становятся интерактивными.</div>
+                <a href="https://ru.wikipedia.org/wiki/JavaScript" class="stack-blocks-link">Подробнее</a>
+            </div>
+        </div>
+</section>
+<section class="study" id="link_study">
+        <h2 class="title-section"><span class="title-section__span">ИЗУЧИТЕ</span></h2>
+        <div class="main-wrapper">
+            <div class="board-left">
+                <h3 class="board-left__h3">Чему вы научитесь: </h3>
+                <p class="board-left__text">Вы научитесь создавать собственные проекты, освоите профессию <br>frontend-разработчика и начнёте карьеру в этой сфере. </p>
+                <ul class="board-left-list">
+                    <li class="board-left-list__item"><i class="fas fa-angle-right"></i>Верстать сайты и приложения для всех типов устройств.</li>
+                    <li class="board-left-list__item"><i class="fas fa-angle-right"></i>Создавать сайты и приложения с помощью JavaScript.</li>
+                    <li class="board-left-list__item"><i class="fas fa-angle-right"></i>Использовать библиотеки для ускорения и упрощения разработки.</li>
+                    <li class="board-left-list__item"><i class="fas fa-angle-right"></i>Применять инструменты проверки и обеспечения адаптивности и кроссбраузерности.</li>
+                    <li class="board-left-list__item"><i class="fas fa-angle-right"></i>Работать с системой Git (стандарт по управлению исходным кодом)<br> и с сервисом GitHub.</li>
+                </ul>
+            </div>
+            <img src="src/programming.png" class="board-left-foto">
+        </div>
+</section>
+<section class="team" id="link_team">
+    <div>
+        <h2 class="title-section"><span class="title-section__span">КОМАНДА</span></h2>
+        <div class="main-wrapper">
+            <div class="team-block"> 
+                <div class="team-block__foto">
+                    <img src="src/member-1-255x260.jpg" class="team-foto">
+                    <div class="team-block__link">
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-block__text">
+                    <p class="team-block__text_name">James Doe</p>
+                    <p class="team-block__text_job">Android Developer</p>
+                </div>
+            </div>
+            <div class="team-block">
+               <div class="team-block__foto">
+                    <img src="src/member-3-255x260.jpg" class="team-foto">
+                    <div class="team-block__link">
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div> 
+                <div class="team-block__text"> 
+                    <p class="team-block__text_name">Davidson</p>
+                    <p class="team-block__text_job">Team Lead</p>
+                </div>
+            </div>
+            <div class="team-block">
+                <div class="team-block__foto">
+                    <img src="src/member-4-255x260.jpg" class="team-foto">
+                    <div class="team-block__link">
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-block__text">
+                    <p class="team-block__text_name">Jack wyane</p>
+                    <p class="team-block__text_job">IOS Developer</p>
+                </div>
+            </div>
+            <div class="team-block">
+                <div class="team-block__foto">
+                    <img src="src/member-2-255x260.jpg" class="team-foto">
+                    <div class="team-block__link">
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="team-block__link_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-block__text">
+                    <p class="team-block__text_name">James Doe</p>
+                    <p class="team-block__text_job">CEO</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="board-five">
+    <div><h2 class="title-section"><span class="title-section__span">ФОТОГРАФИИ</span></h2></div>
+    <div class="foto-block">
+        <div class="foto-block-five"><img src="src/foto2.jpg" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/foto3.png" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/foto4.png" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/foto5.png" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/foto6.png" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/member-2-255x260.jpg" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/member-2-255x260.jpg" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/member-2-255x260.jpg" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/member-2-255x260.jpg" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/member-2-255x260.jpg" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/member-2-255x260.jpg" class="foto-man"></div>
+        <div class="foto-block-five"><img src="src/member-2-255x260.jpg" class="foto-man"></div>
+        
+    </div>
+    <div class="window-open">
+        Показать все фотографии
+    </div>
+</section>
+<section class="map">
+    <h2 class="title-section"><span class="title-section__span">КАРТА</span></h2>
+    <div class="block-map">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A96ab49296f4ce5536939353315940821e4af92b2f0683595200fe7ccb5c4511e&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+</section>
+</main>
+<footer class="footer">
+    <div class="main-wrapper">
+        <img src="src/logotip.png">
+    </div>
+</footer>
+<script src="test.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
